@@ -33,3 +33,5 @@
 ## 其他
 
 数据库文件放在【sql】文件夹下
+
+哔哩哔哩视频地址：https://www.bilibili.com/video/BV1DF2mY3E5o/
