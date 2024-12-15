@@ -1968,11 +1968,11 @@ JDk1.8及以上、Maven.3.5以上、M小ySq5.7以上
 
 ### 3、创建itmk-base-parent父模块
 
-![10001](.\images\10001.png)
+![10001](/images/10001.png)
 
 ### 4、创建itmk-base-common模块
 
-![10002](.\images\10002.png)
+![10002](/images/10002.png)
 
 ### 5、创建itmk-base-web模快
 

@@ -1,7 +1,7 @@
 # 基于Vue3+SpringBoot3+Sa-Token实现前后端分离权限系统
 
 - Gitee：https://gitee.com/huangpeiwen/itmk-base-satoken
-- Github：
+- Github：https://github.com/huangpw/itmk-base-satoken
 
 ## 前端框架
 
@@ -26,9 +26,9 @@
 
 ## 项目截图
 
-![1](.\doc\images\10004.png)
+![1](/doc/images/10004.png)
 
-![1](.\doc\images\10005.png)
+![1](/doc/images/10005.png)
 
 ## 其他
 
