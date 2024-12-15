@@ -1,0 +1,56 @@
+# 端口号配置
+server:
+  port: 8089
+# 数据库配置
+spring:
+  main:
+    allow-circular-references: true
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/itmk-base?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+# jwt配置
+jwt:
+  #颁发者
+  issuer: itmk
+  #密钥
+  secret: com.itmk
+  #过期时间:30分钟
+  expiration: 30
+
+# mybatis-plus配置
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      # 配置mybatis plus 在更新时只更新非空和非NULL的字段
+      update-strategy: not_empty
+logging:
+  pattern:
+    console: '%d{yyyy-MM-dd} [%thread] %-5level %logger- %msg%n'
+web:
+  upload-path: D:/Images/itmk
+  load-path: file:D://images/itmk
+sa-token:
+  #token名称（同时也是cookie 名称)
+  token-name: token
+  #token有效期（单位：秒）默认30天，-1代表永久有效
+  timeout: 2592000
+  #token 最低活跃频率（单位：秒），如果token 超过此时间没有访问系统就会被冻结，默认-1 代表不限制，永不冻结
+  active-timeout: -1
+  #是否允许同一账号多地同时登录（为true时允许一起登录，为false时新登录挤掉旧登录）
+  is-concurrent: false
+  #在多人登录同一账号时，是否共用一个token（为true 时所有登录共用一个token，为false时每次登录新建一个token）
+  is-share: true
+  # token 风格(默认可取值:uuid、simple-uuid、random-32、random-64、random-128、tik)
+  token-style: random-128
+  #是否输出操作日志
+  is-log: true
+  #是否尝试从cookie里读取token
+  is-read-cookie: false
+  #是否尝试从header里读取token
+  is-read-header: true

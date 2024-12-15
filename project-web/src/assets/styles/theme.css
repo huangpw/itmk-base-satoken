@@ -1,0 +1,300 @@
+/* 注意事项：白色统一用 white */
+
+.green {
+  /* 标题字体颜色 */
+  --el-color-logo-color: white;
+  /* 头部高度 */
+  --el-header-height: 60px;
+  /*头部背景色*/
+  --el-color-myheader: rgb(22, 123, 216);
+  /*按钮颜色*/
+  --el-color-primary: #409eff;
+  /*选项卡颜色*/
+  --el-color-mytab: #409eff;
+  /*伸缩图标颜色*/
+  --el-color-collapse: white;
+  /*logo背景色*/
+  --el-color-mylogo: rgb(22, 123, 216);
+  /*左侧菜单字体大小*/
+  --el-mymenu-font: 16px;
+  /*菜单颜色*/
+  --el-color-mymenu: white;
+  /*一级菜单字体颜色*/
+  --el-color-mymenu-first: #303133;
+  /*菜单背景颜色*/
+  --el-color-mymenubg: white;
+  /* 鼠标放上去，菜单颜色 */
+  --el-color-mymenu-hover: #ecf5ff;
+  /*子菜单背景颜色*/
+  --el-color-mymenu-child: white;
+  /*菜单点中文字的颜色*/
+  --el-color-active-menu: #409eff;
+  /*logo和右侧头部分割线*/
+  --el-color-myheaderleft: #409eff;
+  /*弹框头部背景色*/
+  --el-color-mydialog: #409eff;
+  /*面包屑导航分割线颜色*/
+  --el-text-color-separator: white;
+  /*面包屑导航字体颜色*/
+  --el-text-color-bred: white;
+  /*面包屑导航字体大小*/
+  --el-text-bred-font-size: 16px;
+}
+
+.brown {
+  /*标题字体颜色*/
+  --el-color-logo-color: white;
+  /*头部高度*/
+  --el-header-height: 60px;
+  /*头部背景色*/
+  --el-color-myheader: rgb(22, 123, 216);
+  /*按钮颜色*/
+  --el-color-primary: #409eff;
+  /*选项卡颜色*/
+  --el-color-mytab: #409eff;
+  /*伸缩图标颜色*/
+  --el-color-collapse: white;
+  /*logo背景色*/
+  --el-color-mylogo: rgb(22, 123, 216);
+  /*左侧菜单字体大小*/
+  --el-mymenu-font: 16px;
+  /*菜单颜色*/
+  --el-color-mymenu: #0e1f37;
+  /*一级菜单字体颜色*/
+  --el-color-mymenu-first: #f4f4f5;
+  /*子菜单背景颜色*/
+  --el-color-mymenu-child: #1f2d3d;
+  /*菜单背景颜色*/
+  --el-color-mymenubg: #0e1f37;
+  /*鼠标放上去，菜单颜色*/
+  --el-color-mymenu-hover: #001528;
+  /*菜单点中文字的颜色*/
+  --el-color-active-menu: #409eff;
+  /*logo和右侧头部分割线*/
+  --el-color-myheaderleft: white;
+  /*弹框头部背景色*/
+  --el-color-mydialog: #409eff;
+  /*面包屑导航分割线颜色*/
+  --el-text-color-separator: white;
+  /*面包屑导航字体颜色*/
+  --el-text-color-bred: white;
+  /*面包屑导航字体大小*/
+  --el-text-bred-font-size: 16px;
+}
+
+.grape {
+  /*标题字体颜色*/
+  --el-color-logo-color: white;
+  /*头部高度*/
+  --el-header-height: 60px;
+  /*头部背景色*/
+  --el-color-myheader: #ff2551;
+  /*按钮颜色*/
+  --el-color-primary: #ff2551;
+  /*选项卡颜色*/
+  --el-color-mytab: #ff2551;
+  /*伸缩图标颜色*/
+  --el-color-collapse: white;
+  /*logo背景色*/
+  --el-color-mylogo: #000000;
+  /*左侧菜单字体大小*/
+  --el-mymenu-font: 16px;
+  /*菜单颜色*/
+  --el-color-mymenu: #0e1f37;
+  /*一级菜单字体颜色*/
+  --el-color-mymenu-first: #f4f4f5;
+  /*子菜单背景颜色*/
+  --el-color-mymenu-child: #1f2d3d;
+  /*菜单背景颜色*/
+  --el-color-mymenubg: #0e1f37;
+  /*鼠标放上去，菜单颜色*/
+  --el-color-mymenu-hover: #001528;
+  /*菜单点中文字的颜色*/
+  --el-color-active-menu: #ff2551;
+  /*logo和右侧头部分割线*/
+  --el-color-myheaderleft: #ff2551;
+  /*弹框头部背景色*/
+  --el-color-mydialog: #ff2551;
+  /*面包屑导航分割线颜色*/
+  --el-text-color-separator: white;
+  /*面包屑导航字体颜色*/
+  --el-text-color-bred: white;
+  /*面包屑导航字体大小*/
+  --el-text-bred-font-size: 16px;
+}
+
+.default {
+  /*标题字体颜色*/
+  --el-color-logo-color: white;
+  /*头部高度*/
+  --el-header-height: 60px;
+  /*头部背景色*/
+  --el-color-myheader: #009688;
+  /*按钮颜色*/
+  --el-color-primary: #42b983;
+  /*选项卡颜色*/
+  --el-color-mytab: #42b983;
+  /*伸缩图标颜色*/
+  --el-color-collapse: white;
+  /*logo背景色*/
+  --el-color-mylogo: #000000;
+  /*左侧菜单字体大小*/
+  --el-mymenu-font: 16px;
+  /*菜单颜色*/
+  --el-color-mymenu: #0e1f37;
+  /*一级菜单字体颜色*/
+  --el-color-mymenu-first: #f4f4f5;
+  /*子菜单背景颜色*/
+  --el-color-mymenu-child: #1f2d3d;
+  /*菜单背景颜色*/
+  --el-color-mymenubg: #0e1f37;
+  /*鼠标放上去，菜单颜色*/
+  --el-color-mymenu-hover: #001528;
+  /*菜单点中文字的颜色*/
+  --el-color-active-menu: #1890ff;
+  /*logo和右侧头部分割线*/
+  --el-color-myheaderleft: #009688;
+  /*弹框头部背景色*/
+  --el-color-mydialog: #009688;
+  /*面包屑导航分割线颜色*/
+  --el-text-color-separator: white;
+  /*面包屑导航字体颜色*/
+  --el-text-color-bred: white;
+  /*面包屑导航字体大小*/
+  --el-text-bred-font-size: 16px;
+}
+
+.blacks {
+  /*标题字体颜色*/
+  --el-color-logo-color: white;
+  /*头部高度*/
+  --el-header-height: 60px;
+  /*头部背景色*/
+  --el-color-myheader: #0f2542;
+  /*按钮颜色*/
+  --el-color-primary: #42b983;
+  /*选项卡颜色*/
+  --el-color-mytab: #42b983;
+  /*伸缩图标颜色*/
+  --el-color-collapse: white;
+  /*logo背景色*/
+  --el-color-mylogo: #000000;
+  /*左侧菜单字体大小*/
+  --el-mymenu-font: 16px;
+  /*菜单颜色*/
+  --el-color-mymenu: #0e1f37;
+  /*一级菜单字体颜色*/
+  --el-color-mymenu-first: #f4f4f5;
+  /*子菜单背景颜色*/
+  --el-color-mymenu-child: #1f2d3d;
+  /*菜单背景颜色*/
+  --el-color-mymenubg: #0e1f37;
+  /*鼠标放上去，菜单颜色*/
+  --el-color-mymenu-hover: #001528;
+  /*菜单点中文字的颜色*/
+  --el-color-active-menu: #f07810;
+  /*logo和右侧头部分割线*/
+  --el-color-myheaderleft: white;
+  /*弹框头部背景色*/
+  --el-color-mydialog: #0e1f37;
+  /*面包屑导航分割线颜色*/
+  --el-text-color-separator: white;
+  /*面包屑导航字体颜色*/
+  --el-text-color-bred: white;
+  /*面包屑导航字体大小*/
+  --el-text-bred-font-size: 16px;
+}
+
+.whites {
+  /*标题字体颜色*/
+  --el-color-logo-color: white;
+  /*头部高度*/
+  --el-header-height: 60px;
+  /*头部背景色*/
+  --el-color-myheader: white;
+  /*按钮颜色*/
+  --el-color-primary: #42b983;
+  /*选项卡颜色*/
+  --el-color-mytab: #42b983;
+  /*伸缩图标颜色*/
+  --el-color-collapse: #73767a;
+  /*logo背景色*/
+  --el-color-mylogo: #000000;
+  /*左侧菜单字体大小*/
+  --el-mymenu-font: 16px;
+  /*菜单颜色*/
+  /* --el-color-mymenu: white; */
+  --el-color-mymenu: #0e1f37;
+  /*一级菜单字体颜色*/
+  --el-color-mymenu-first: #f4f4f5;
+  /*子菜单背景颜色*/
+  --el-color-mymenu-child: #1f2d3d;
+  /*菜单背景颜色*/
+  --el-color-mymenubg: #0e1f37;
+  /*鼠标放上去，菜单颜色*/
+  --el-color-mymenu-hover: #001528;
+  /*菜单点中文字的颜色*/
+  --el-color-active-menu: #1890ff;
+  /*logo和右侧头部分割线*/
+  --el-color-myheaderleft: white;
+  /*弹框头部背景色*/
+  --el-color-mydialog: #009688;
+  /*面包屑导航分割线颜色*/
+  --el-text-color-separator: #606266;
+  /*面包屑导航字体颜色*/
+  --el-text-color-bred: #606266;
+  /*面包屑导航字体大小*/
+  --el-text-bred-font-size: 16px;
+}
+
+.default1 {
+  /*标题字体颜色*/
+  --el-color-logo-color: white;
+  /*头部高度*/
+  --el-header-height: 60px;
+  /*头部背景色*/
+  --el-color-myheader: #009688;
+  /*按钮颜色*/
+  --el-color-primary: #42b983;
+  /*选项卡颜色*/
+  --el-color-mytab: #42b983;
+  /*伸缩图标颜色*/
+  --el-color-collapse: white;
+  /*logo背景色*/
+  --el-color-mylogo: #2b2f3a;
+  /*左侧菜单字体大小*/
+  --el-mymenu-font: 16px;
+  /*菜单颜色*/
+  --el-color-mymenu: #304156;
+  --el-color-mymenu-first: #f4f4f5;
+  /*子菜单背景颜色*/
+  --el-color-mymenu-child: #1f2d3d;
+  /*菜单背景颜色*/
+  --el-color-mymenubg: #304156;
+  /*鼠标放上去，菜单颜色*/
+  --el-color-mymenu-hover: #001528;
+  /*菜单点中文字的颜色*/
+  --el-color-active-menu: #1890ff;
+  /*logo和右侧头部分割线*/
+  --el-color-myheaderleft: #009688;
+  /*弹框头部背景色*/
+  --el-color-mydialog: #009688;
+  /*面包屑导航分割线颜色*/
+  --el-text-color-separator: white;
+  /*面包屑导航字体颜色*/
+  --el-text-color-bred: white;
+  /*面包屑导航字体大小*/
+  --el-text-bred-font-size: 16px;
+}
+
+.el-button:focus {
+  color: var(--el-button-text-color);
+  background-color: var(--el-button-bg-color);
+  border-color: var(--el-button-border-color);
+}
+
+.el-button:hover {
+  color: var(--el-button-text-color);
+  background-color: var(--el-button-bg-color);
+  border-color: var(--el-button-border-color);
+}
